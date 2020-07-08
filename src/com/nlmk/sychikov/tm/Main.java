@@ -5,18 +5,22 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
+        displayWelcome();
         run(args);
-        System.out.println("HELLO WORLD");
     }
 
     private static void run(final String[] args) {
         if (args == null) return;
-        if (args.length <1) return;
+        if (args.length < 1) return;
         final String param = args[0];
         if ("version".equals(param)) displayVersion();
         if ("about".equals(param)) displayAbout();
-        if ("help".equals(param))  displayHelp();
+        if ("help".equals(param)) displayHelp();
         else displayError();
+    }
+
+    private static void displayWelcome() {
+        System.out.println("** WELCOME TO TASK MANAGER **");
     }
 
     private static void displayHelp() {
