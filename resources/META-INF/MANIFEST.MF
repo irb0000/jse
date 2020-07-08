@@ -1,2 +1,2 @@
 Manifest-Version: 1.0
-Main-Class: com.nlmk.tm.Main
+Main-Class: com.nlmk.sychikov.tm.Main
