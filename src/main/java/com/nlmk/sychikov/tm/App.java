@@ -2,7 +2,7 @@ package com.nlmk.sychikov.tm;
 
 import static com.nlmk.sychikov.tm.constant.TerminalConst.*;
 
-public class Main {
+public class App {
 
     public static void main(String[] args) {
         run(args);
@@ -24,7 +24,6 @@ public class Main {
                 displayError();
         }
     }
-
 
     private static void displayWelcome() {
         System.out.println("** WELCOME TO TASK MANAGER **");
