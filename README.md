@@ -16,17 +16,18 @@ java SE + сборщик проектов apache maven
 
 **Сычиков Владимир** vladimirsychikov@nospam.ru
 
-## Сборка приложения
+## Сборка приложения 
 
-```
-mvn package
+
+```bash
+mvn clean install -f pom.xml
 ```
 ## Запуск приложения
 
+```bash
+java -jar target/task-manager-1.0.0.jar
 ```
-java -jar target\task-manager-1.0.0.jar
-```
-
+*Сборка и запуск из каталога проекта, в противном случае указывайте полный путь.*
 ## Поддержиаемые терминальные команды
 
 ```
