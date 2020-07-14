@@ -5,12 +5,12 @@
 ## Требования к software
 
 При разработке использовались:
-* java openjdk version "11"
-* apache maven 3.6.1
+* Java Openjdk version "11"
+* Apache maven 3.6.1
 
 ## Описание стека технологий
 
-java SE + сборщик проектов apache maven
+Java SE + сборщик проектов Apache maven
 
 ## Разработчик
 
