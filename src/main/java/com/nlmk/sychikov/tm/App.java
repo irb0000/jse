@@ -7,7 +7,7 @@ import static com.nlmk.sychikov.tm.constant.TerminalConst.*;
 public class App {
 
     /**
-     *main (start point)
+     * Main (start point)
      *
      * @param args command line arguments
      */
@@ -108,7 +108,7 @@ public class App {
     }
 
     /**
-     * show exit string
+     * Show exit string
      *
      * @return value
      */
