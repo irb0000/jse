@@ -1,4 +1,7 @@
-<h1 align="center">Task-manager</h1>
+# Task-manager
+
+Альтернативный репозиторий
+https://github.com/irb0000/jse
 
 Это учебный проект в рамках курса по программе JAVA SPRING НЛМК.
 
